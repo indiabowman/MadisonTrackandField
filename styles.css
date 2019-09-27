@@ -1,5 +1,8 @@
 /*Home*/
-
+.navbar-brand {
+  float: left;
+  min-height: 55px;
+}
 /*Calendar*/
 
 /*Meets*/
