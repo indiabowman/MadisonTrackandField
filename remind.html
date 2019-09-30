@@ -3,37 +3,42 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Track and field information">
   <meta name="keywords" content="Track, information">
   <meta name="author" content="India Kimberly Jaleah">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Client Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <title>Madison Track and Field Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
-        <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="#myNavbar" >
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="img/track.jpg"></a>
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="callapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/track.jpg"></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar">
+          <li class="active">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="calendar.html">Calendar</a></li>
+          <li><a href="meets.html">Meets</a></li>
+          <li><a href="practice.html">Practice</a></li>
+          <li><a href="remind.html">Remind</a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar">
-        <li class="active">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="meets.html">Meets</a></li>
-        <li><a href="practice.html">Practices</a></li>
-        <li><a href="remind.html">Remind</a></li>
-        <li><a href="calendar.html">Calendar</a></li>
-      </ul>
-    </div>
-  </div>
   </nav>
+</body>
+</html>
