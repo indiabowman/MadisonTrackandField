@@ -21,16 +21,21 @@ background-color: #8B0000;
 .navbar-inverse .navbar-nav li a {
   color: #D5D5D5;
 }
+
+.group-pic{
+padding: 40px 230px;
+}
 /*Calendar*/
 h1{
   align-content: center;
 }
 
+
 * {box-sizing: border-box;}
 ul {list-style-type: none;}
 body {font-family: Verdana, sans-serif;}
 .month {
-  padding: 70px 25px;
+  padding: 70px 20px;
   width: 100%;
   background: #8B0000;
   text-align: center;
@@ -88,7 +93,7 @@ body {font-family: Verdana, sans-serif;}
 }
 
 .days li .active {
-  padding: 5px;
+  padding: 20px;
   background: #1abc9c;
   color: white !important
 }
@@ -107,9 +112,19 @@ body {font-family: Verdana, sans-serif;}
 }
 
 /*Meets*/
-
+.meets{
+align-content: center;
+}
+table, th, td {
+  align-content: center;
+  border: 4px solid black;
+}
 /*Practices*/
-
+table, th, td {
+  height: 100%:
+  text-align: center;
+  font-size: 25px;
+}
 /*Remind*/
 
 /*all*/
