@@ -16,14 +16,13 @@
 .navbar-inverse .navbar-nav .active a:hover {
 color: #FFF;
 background-color: #8B0000;
-
 }
 .navbar-inverse .navbar-nav li a {
   color: #D5D5D5;
 }
 
 .group-pic{
-padding: 40px 230px;
+align-self: center;
 }
 /*Calendar*/
 h1{
