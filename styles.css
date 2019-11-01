@@ -4,29 +4,34 @@
   border-radius: 0;
   background-color: #8B0000;
   color: #FFF;
+  text-decoration: underline;
+  text-decoration-style: solid;
   padding: 1% 0;
   font-size: 1.2cm;
+  text-align: center;
 }
 .navbar-brand{
   float: left;
   min-height: 30px;
-  padding: 0 15px 5px;
+  padding: 0px 15px 5px;
 }
 .navbar-inverse .navbar-nav .active a., .navbar-inverse . navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
-color: #FFF;
-background-color: #8B0000;
+align-items: center;
 }
 .navbar-inverse .navbar-nav li a {
-  color: #D5D5D5;
+  color: #DAA520;
 }
-
+.nav navbar-nav navbar{
+  align-items: center;
+}
 .group-pic{
 align-self: center;
 }
 /*Calendar*/
 h1{
-  align-content: center;
+  font-size: 50px;
+  text-align: center;
 }
 @media screen (max-width:720px) {
   .weekdays li, .days li {width: 13.1%;}
@@ -48,7 +53,7 @@ table, th, td {
 }
 /*Practices*/
 table, th, td {
-table-layout: fixed;
+table-layout: auto;
   text-align: center;
   font-size: 30px;
 }
