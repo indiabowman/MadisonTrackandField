@@ -1,10 +1,13 @@
 /*Home*/
+body{
+  background-image: radial-gradient(#FFFFFF,#000080);
+}
 .navbar{
   margin-bottom: 0;
   border-radius: 0;
   background-color: #8B0000;
   color: #FFF;
-  text-decoration: underline;
+  text-decoration: none;
   text-decoration-style: solid;
   padding: 1% 0;
   font-size: 1.2cm;
@@ -28,6 +31,24 @@ align-self: center;
 }
 nav li{
   text-align: center;
+}
+#container {
+ width:50%;
+ background:#FFFFCC;
+}
+.ul {
+ float: right;
+ width:49.9%;
+}
+/*.Roster{
+  color: black;
+}
+.boys-roster{
+  font-size: 20px;
+  color: black;
+}
+.girls{
+  float: right;
 }
 /*Calendar*/
 h1{
@@ -53,12 +74,20 @@ table, th, td {
   align-content: center;
   border: 4px solid black;
 }
+.Meetthingy{
+  color: black;
+}
 /*Practices*/
 table, th, td {
 table-layout: auto;
   text-align: center;
   font-size: 30px;
 }
+h2{
+  font-size: 50px;
+}
 /*Remind*/
-
+.remindthingy{
+  background-image: linear-gradient(#FFFFFF,#FFFFFF);
+}
 /*all*/
