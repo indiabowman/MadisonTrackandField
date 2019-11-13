@@ -26,19 +26,15 @@ align-items: center;
   color: #DAA520;
   align-items: center;
 }
-.group-pic{
-align-self: center;
-}
 nav li{
   text-align: center;
 }
-#container {
+.row{
  width:50%;
- background:#FFFFCC;
+ float: left;
 }
-.ul {
- float: right;
- width:49.9%;
+.col-md-3{
+  float: right;
 }
 /*.Roster{
   color: black;
@@ -83,7 +79,7 @@ table-layout: auto;
   text-align: center;
   font-size: 30px;
 }
-h2{
+.location{
   font-size: 50px;
 }
 /*Remind*/
