@@ -36,15 +36,11 @@ nav li{
 .col-md-3{
   float: right;
 }
-/*.Roster{
-  color: black;
+.headcoach{
+color: black;
 }
-.boys-roster{
-  font-size: 20px;
-  color: black;
-}
-.girls{
-  float: right;
+.trackcoach{
+  align-content: center;
 }
 /*Calendar*/
 h1{
