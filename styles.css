@@ -36,11 +36,9 @@ nav li{
 .col-md-3{
   float: right;
 }
-.headcoach{
+.coach{
+font-size: 25px;
 color: black;
-}
-.trackcoach{
-  align-content: center;
 }
 /*Calendar*/
 h1{
