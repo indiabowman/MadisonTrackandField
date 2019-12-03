@@ -1,8 +1,11 @@
-/*Home*/
-body{
-  background-image: radial-gradient(#FFFFFF,#000080);
+/*all*/
+/*background design/ color*/
+body {
+  background-image: radial-gradient(#FFFFFF, #000080);
 }
-.navbar{
+
+/*navigation*/
+.navbar {
   margin-bottom: 0;
   border-radius: 0;
   background-color: #8B0000;
@@ -13,71 +16,110 @@ body{
   font-size: 1.2cm;
   align-self: center;
 }
-.navbar-brand{
+
+.navbar-brand {
   float: left;
   min-height: 30px;
   padding: 0px 15px 5px;
 }
+
 .navbar-inverse .navbar-nav .active a., .navbar-inverse . navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
-align-items: center;
+  align-items: center;
 }
+
 .navbar-inverse .navbar-nav li a {
   color: #DAA520;
   align-items: center;
 }
-nav li{
+
+nav li {
   text-align: center;
 }
-.row{
- width:50%;
- float: left;
-}
-.col-md-3{
-  float: right;
-}
-.coach{
-font-size: 25px;
-color: black;
-}
-/*Calendar*/
-h1{
+
+h1 {
   font-size: 50px;
   text-align: center;
-  color: #DAA520;
-}
-@media screen (max-width:720px) {
-  .weekdays li, .days li {width: 13.1%;}
-}
-
-@media screen (max-width: 420px) {
-  .weekdays li, .days li {width: 12.5%;}
-  .days li .active {padding: 2px;}
-}
-
-@media screen (max-width: 290px) {
-  .weekdays li, .days li {width: 12.2%;}
-}
-
-/*Meets*/
-table, th, td {
-  align-content: center;
-  border: 4px solid black;
-}
-.Meetthingy{
   color: black;
 }
-/*Practices*/
+
+/*all end*/
+/*Home*/
+.coach {
+  font-size: 25px;
+  color: black;
+}
+
+div .color a {
+  color: #8B0000;
+}
+
+/*Home end*/
+/*Meets*/
+.Meet {
+  color: black;
+}
+
+.label {
+  align-self: center;
+  font-size: 30px;
+  color: black;
+}
+
+/*Meets end*/
+/*Practice*/
+.location {
+  font-size: 50px;
+}
+/*Practice end*/
+/*Meets and Practice*/
 table, th, td {
-table-layout: auto;
+  align-content: center;
+  border: 4px solid #191970;
+}
+
+td {
+  color: #800000;
+}
+
+table, th, td {
+  table-layout: auto;
   text-align: center;
   font-size: 30px;
 }
-.location{
-  font-size: 50px;
-}
+/*Meets and Practice end*/
 /*Remind*/
-.remindthingy{
-  background-image: linear-gradient(#FFFFFF,#FFFFFF);
+.remind {
+  background-image: linear-gradient(#FFFFFF, #FFFFFF);
 }
-/*all*/
+
+/*Remind end*/
+/*media queries*/
+@media screen (max-width:900px) {
+  .weekdays li, .days li {
+    width: 30%;
+  }
+}
+
+@media screen (max-width: 600px) {
+  .weekdays li, .days li {
+    width: 20%;
+  }
+
+  .days li .active {
+    padding: 2px;
+  }
+}
+
+/*end of media queries*/
+/*Rosters page*/
+.col-md-3 {
+  float: left;
+  font-size: 30px;
+}
+
+.boys {
+  float: right;
+}
+
+/*End of Rosters page*/
