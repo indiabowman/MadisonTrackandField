@@ -44,6 +44,7 @@ h1 {
 }
 
 /*all end*/
+
 /*Home*/
 .coach {
   font-size: 25px;
@@ -55,6 +56,7 @@ div .color a {
 }
 
 /*Home end*/
+
 /*Meets*/
 .Meet {
   color: black;
@@ -67,11 +69,13 @@ div .color a {
 }
 
 /*Meets end*/
+
 /*Practice*/
 .location {
   font-size: 50px;
 }
 /*Practice end*/
+
 /*Meets and Practice*/
 table, th, td {
   align-content: center;
@@ -88,12 +92,28 @@ table, th, td {
   font-size: 30px;
 }
 /*Meets and Practice end*/
+
 /*Remind*/
 .remind {
   background-image: linear-gradient(#FFFFFF, #FFFFFF);
 }
 
 /*Remind end*/
+
+/*Rosters page*/
+.col-md-3 {
+  float: right;
+  font-size: 30px;
+}
+.boys {
+  float: left;
+}
+.roster-list{
+  color:#8B0000;
+}
+
+/*End of Rosters page*/
+
 /*media queries*/
 @media screen (max-width:900px) {
   .weekdays li, .days li {
@@ -112,14 +132,3 @@ table, th, td {
 }
 
 /*end of media queries*/
-/*Rosters page*/
-.col-md-3 {
-  float: left;
-  font-size: 30px;
-}
-
-.boys {
-  float: right;
-}
-
-/*End of Rosters page*/
