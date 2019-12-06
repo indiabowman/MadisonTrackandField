@@ -125,7 +125,7 @@ table, th, td {
   .weekdays li, .days li {
     width: 20%;
   }
-
+}
   .days li .active {
     padding: 2px;
   }
